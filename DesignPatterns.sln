@@ -1,19 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2003
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{BCF724D1-67D6-47C1-82BF-0BA07F89A5CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{BCF724D1-67D6-47C1-82BF-0BA07F89A5CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{345E1E6E-3974-4F59-8644-9CC0A8E1E888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{345E1E6E-3974-4F59-8644-9CC0A8E1E888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{0231F3F0-680F-49EE-BF54-4407F19DB278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{0231F3F0-680F-49EE-BF54-4407F19DB278}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{FDED649A-2397-433A-AEBD-52BB9D7325A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{FDED649A-2397-433A-AEBD-52BB9D7325A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{46E50D88-F2E4-49D8-A4FA-15EC86E954D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{46E50D88-F2E4-49D8-A4FA-15EC86E954D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{999EB405-6C2C-4654-B8E8-466EB2C3C637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{999EB405-6C2C-4654-B8E8-466EB2C3C637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{ED74357F-1C74-4B47-9CF4-580D6E6C6934}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{999EB405-6C2C-4654-B8E8-466EB2C3C637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{999EB405-6C2C-4654-B8E8-466EB2C3C637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{999EB405-6C2C-4654-B8E8-466EB2C3C637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED74357F-1C74-4B47-9CF4-580D6E6C6934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED74357F-1C74-4B47-9CF4-580D6E6C6934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED74357F-1C74-4B47-9CF4-580D6E6C6934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED74357F-1C74-4B47-9CF4-580D6E6C6934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

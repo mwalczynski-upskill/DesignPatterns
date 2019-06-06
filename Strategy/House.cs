@@ -12,7 +12,7 @@ namespace Strategy
         private readonly IFormatStrategy _formatter;
         private readonly IOrderStrategy _orderer;
 
-        private readonly IEnumerable<string> _data = new List<string>() {
+        private IEnumerable<string> _data = new List<string>() {
             "the horse and the hound and the horn that belonged to",
             "the farmer sowing his corn that kept",
             "the rooster that crowed in",
@@ -33,7 +33,12 @@ namespace Strategy
             _formatter = formatter;
             _orderer = orderer;
 
-            _data = orderer.Order(_data);
+            EditData(orderer);
+        }
+
+        private void EditData(IOrderStrategy orderer)
+        {
+            _data = _orderer.Order(_data);
             _data = _formatter.Format(_data);
         }
 
