@@ -6,7 +6,7 @@ namespace FactoryMethod.ResolverFactory
 {
     public class ResolverFactory
     {
-        public IObstacleFactoryResolver CreateObstacleFactoryResolver()
+        public static IObstacleFactoryResolver CreateObstacleFactoryResolver()
         {
             var obstacleFactories = new List<IObstacleFactory>()
             {

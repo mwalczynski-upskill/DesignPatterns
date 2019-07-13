@@ -6,7 +6,6 @@ namespace FactoryMethod.Factory
     public interface IObstacleFactory
     {
         ObstacleFactoryType Type { get; }
-
         IObstacle CreateObstacle();
     }
 }

@@ -7,7 +7,7 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            var obstacleFactoryResolver = new ResolverFactory.ResolverFactory().CreateObstacleFactoryResolver();
+            var obstacleFactoryResolver = ResolverFactory.ResolverFactory.CreateObstacleFactoryResolver();
 
             var obstacleFactory = obstacleFactoryResolver.ResolveFactory(ObstacleFactoryType.Balanced);
 
