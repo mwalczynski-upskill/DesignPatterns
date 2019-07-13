@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{999EB405-6C2C-4654-B8E8-466EB2C3C637}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{ED74357F-1C74-4B47-9CF4-580D6E6C6934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{ED74357F-1C74-4B47-9CF4-580D6E6C6934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispose", "Dispose\Dispose.csproj", "{5AC25A71-54D6-49FB-8780-05FD1E99D3C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{ED74357F-1C74-4B47-9CF4-580D6E6C6934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED74357F-1C74-4B47-9CF4-580D6E6C6934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED74357F-1C74-4B47-9CF4-580D6E6C6934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC25A71-54D6-49FB-8780-05FD1E99D3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC25A71-54D6-49FB-8780-05FD1E99D3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC25A71-54D6-49FB-8780-05FD1E99D3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC25A71-54D6-49FB-8780-05FD1E99D3C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
