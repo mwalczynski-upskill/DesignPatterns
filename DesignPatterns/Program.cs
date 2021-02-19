@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Dispose
+namespace DesignPatterns
 {
     class Program
     {
